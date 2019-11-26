@@ -1,1 +1,1 @@
-web: gunicorn judo_app.wsgi
+web: gunicorn dolar_api.wsgi
