@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+#banner {
+  text-align: center;
+  background-size: cover;
+  background-color: #708090;
+  color: #F5F5F5;
+  text-shadow: 1px 1px 5px black;
+}
+
+.stopfloat{
+    clear: both;
+}
+
+#footer {
+  background-color: #708090;
+}
+
+#footer p {
+  color:#F5F5F5;
+  font-size: 11pt;
+  text-align: center;
+}
+article h3 a{
+    text-decoration:none;
+    color: black;
+    font-weight: bold;
+}
+#containerHomepage{
+    width: 1300px;
+    height: 940px;
+    margin: 0 auto;
+}
