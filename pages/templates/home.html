@@ -2,10 +2,9 @@
 {% load static %}
 {% block content %}
 <br>
-<h3>Valor do dolar: <span id="valor_dolar">{{ dolar }}</span></h3>
+<h3>Dolar Hoje: U$ 1,00 = R$ <span id="valor_dolar">{{ dolar }}</span></h3>
 <hr>
-<h3>Valor em reais: <input id="entrada_usuario" type="number" min="0"> <button id="converter" onclick="converte()">Converter</button></h3>
-
-<h3 id="resposta"></h3>
+<h3>Valor em dolar: U$ <input id="entrada_usuario_dolar" type="number" min="0" oninput="converte_dolar_real()"> </h3>
+<h3>Valor em real: R$ <input id="entrada_usuario_real" type="number" min="0" oninput="converte_real_dolar()"> </h3>
 <br>
 {% endblock %}
